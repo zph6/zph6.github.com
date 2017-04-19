@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+*{line-height:20px;
+  margin-left:2%;
+  font-size:24px;}
+</style>
+</head>
+
+<body bgcolor="#FFCC66">
+<p>&nbsp;&nbsp;<a name="top" id="top"></a>关于网页的一些个人笔记</p>
+<p><a href="#a1">HTML内部样式</a></p>
+<p><a href="#a2">CSS样式</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a name="a1" id="a1"></a><em><strong>以下为一些关于HTML内部样式的一些代码</strong></em></p>
+<p>&nbsp;</p>
+<p>1.内部运用CSS样式&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong> &lt;style type="text/css"&gt;</strong>&nbsp;&nbsp;&nbsp; &nbsp;<strong> body{color:red}&lt;/style&gt;</strong></p>
+<p>2.改变网页背景颜色&nbsp; &nbsp; &nbsp;<strong> &lt;body bgcolor=&quot;yellow&quot;&gt;</strong></p>
+<p>3.文字移动代码&nbsp; &nbsp; <strong>&lt;marquee direction=left&gt;需要移动的文字&lt;/marquee&gt; </strong></p>
+<p><strong>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&lt;marquee behavīor=alternate&gt;需要移动的文字&lt;/marquee&gt; （左右来回移动）</strong></p>
+<p><strong>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&lt;marquee behavīor=&quot;alternate&quot;&gt;&lt;marquee width=&quot;150&quot; direction=right&gt;需要移动的文</strong></p>
+<p><strong>字&lt;/marquee&gt;(忽隐忽现移动)</strong></p>
+<p><br />
+ &nbsp;&nbsp; &nbsp; 各主要参数的含义： <br />
+  　　 <br />
+  　　align：是设定活动对象(图片或文字)的位置。 <br />
+  　　 <br />
+  　　direction：用于设定活动对象的移动方向。 <br />
+  　　 <br />
+  　　behavīor=&quot;scroll&quot;表示由一端移动到另一端。 <br />
+  　　 <br />
+  　　behavīor=&quot;slide&quot;表示由一端移动到另一端，且不再重复。 <br />
+  　　 <br />
+  　　behavīor=&quot;alternate&quot;表示在两端之间来回移动。 <br />
+  　　 <br />
+  　　height：用于设定移动对象的高度。 <br />
+  　　 <br />
+  　　width：则设定移动对象的宽度。 <br />
+  　　 <br />
+  　　hspace:用于设定移动对象的左右边框宽度。 <br />
+  　　 <br />
+  　　vspace：上下边框的宽度。 <br />
+  　　 <br />
+  　　scrollamount：用于设定活动对象的移动距离，数值越大移动越快。 <br />
+  　　 <br />
+  　　scrolldelay：用于设定移动两次之间的延迟时间，数值越大越有跳跃感。 <br />
+  　　 <br />
+  　　loop：用于设定移动的次数，不设置该值则为无限循环 <br />
+  　　 <br />
+  　　style=&quot;font-size: &quot;用于设定文字大小。 <br />
+  　　 <br />
+  　　wline-htight: 用于设定文字行间距。 <br />
+  　　 <br />
+  　　font-family: 用于设定字体。 <br />
+  　　 <br />
+  　　&lt;marquee&gt;标记的默认情况是向左移动无限次，字幕高度是文本高度，移动范围：水平移动的宽度是<br/>
+　　当前位置置的宽度，垂直移动的高度是当前位置的高度。字体是从右向左移动，鼠标放上面停止移动，松开继续。<br/>
+  　　 <br />
+4.改变字体行距代码：&nbsp;&nbsp;&nbsp;<strong>&lt;line-height:18px&gt;</strong></p>
+<p>5.链接外部CSS样式代码：&lt;<strong>link rel="stylesheet" type="text/css" href="文件名.css"&gt;</strong></p>
+<p>6.<strong>&lt;B&gt;  &lt;/B&gt;</strong> 黑体</p>
+<p><strong>&lt;i&gt;  &lt;/i&gt; </strong>斜体<br />
+</p>
+<p><strong>&lt;u&gt;  &lt;/u&gt;</strong>下划线<br />
+</p>
+<p><strong>&lt;s&gt;  &lt;/s&gt;;&lt;strike&gt;  &lt;/strike&gt;</strong>删除线<br />
+</p>
+<p><strong>&lt;sup&gt;  &lt;/sup&gt;</strong> 上标<br />
+</p>
+<p><strong>&lt;sub&gt;  &lt;/sub&gt;</strong> 下标<br />
+</p>
+<p><strong>&amp;nbsp;</strong>空格<br />
+</p>
+<p><strong>&lt;font&gt;  &lt;/font&gt;</strong>标识符<br />
+</p>
+<p>    包括size大小;color颜色;face字体<br />
+</p>
+<p><strong>&lt;basefont&gt;</strong>同上，不过是对应的整个文本<br />
+</p>
+<p><strong>&lt;title&gt; &lt;/title&gt;</strong>标题<br />
+</p>
+<p><strong>&lt;br&gt;</strong>多行文本<br />
+</p>
+<p><strong>&lt;p&gt;</strong>同上<br />
+</p>
+<p><strong>&lt;p&gt; &lt;/p&gt;</strong> 段落<br />
+</p>
+<p><strong>&lt;pre&gt; &lt;pre&gt;</strong>安置文本的标识符<br />
+  </p>
+<p><strong>&lt;br/&gt;</strong>文字<strong>&lt;br/&gt;</strong>(换行代码)&nbsp;<strong>&nbsp;&nbsp; &lt;hr&gt;</strong>(添加水平线)</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="#top">返回顶部</a><a href="#a1"></a></p>
+<p><br />
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a name="a2" id="a2"></a><em><strong>以下是关于CSS样式的一些代码</strong></em></p>
+<p>&nbsp;</p>
+<p>1.rel:rel属性指定链接的CSS样式，其值为stylesheet</p>
+<p> type:type属性指定链接的文件类型为CSS样式表</p>
+<p>&nbsp;href:href属性指定所链接的外部CSS样式表文件的路径　</p>
+<p>　 </p>
+<p>2.text-transform属性的基本语法如下：&nbsp; &nbsp;&nbsp; &nbsp;</p>
+<p>text-transform:属性值；</p>
+<p>text-transform:capitalize(首字母大写)&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</p>
+<p>text-transform:uppercase(英文单词全大写)&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</p>
+<p> text-transform:lowercase(英文单词全小写)</p>
+<p>&nbsp;</p>
+<p>3.部分CSS代码&nbsp; &nbsp; </p>
+<p>body{background-img:url();（添加背景图片）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<p>ckground-color：red（改变背景颜色）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p>ckground-repeat：no repeat（背景影像重叠方式）} &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;#text{margin-top:10px;（标签距顶部距离）</p>
+<p>font-family:"楷体"(改变字体样式)</p>
+<p>font-weight:bold;（字体加粗）&nbsp; &nbsp;&nbsp; &nbsp;</p>
+<p> color：red（改变标签字体颜色）}</p>
+<p>&nbsp;</p>
+<p><a href="#top">返回顶部</a></p>
+<p><br />
+</p>
+</body>
+</html>
